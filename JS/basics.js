@@ -37,11 +37,36 @@ console.log(myFavColor)
 
 // 8. Define your favoriteColor variable as myFavColor
 
+var favoriteColor;
+favoriteColor = 'Black';
+var myFavColor;
+myFavColor = favoriteColor;
+console.log(myFavColor)
 
+// 9.	Write a function named addTwoNumbers that takes two numbers and returns their sum.
 
+function addTwoNumbers(a, b){
+    return a + b
+}
+console.log(addTwoNumbers(5, 10))
 
+// 10.	Write a function named isEven that takes a number and returns true if the number is even, otherwise false.
 
+function isEven (number){
+  return (number & 1) === 0;
+}
 
+function isOdd (number){
+  return (number & 1) === 1;
+}   
+
+console.log(isEven(5));
+
+console.log(isEven(4));
+
+console.log(isOdd(5));
+
+console.log(isOdd(4));
 
 
 // DO NOT CHANGE OR CODE UNDER THIS
