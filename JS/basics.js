@@ -7,12 +7,12 @@ console.log(myName)
 
 // 2. Write a variable named age and make it a number of your age
 
-var age = '19'
+var age = 19
 console.log(age)
 
 // 3. Write a variable named isStudent and make it a boolean that represents your status as a student
 
-var isStudent = 'false'
+var isStudent = false
 console.log(isStudent)
 
 // 4. Write a variable named favoriteColor and leave it undefined
@@ -22,12 +22,12 @@ console.log(favoriteColor)
 
 // 5. Write a variable named greeting and set it to "Hello, world!"
 
-var greeting = 'Hello World'
+var greeting = 'Hello, world!'
 console.log(greeting)
 
 // 6. Write a variable named myUndefined and leave it undefined
 
-var myUndefined = ''
+var myUndefined =
 console.log(myUndefined)
 
 // 7. Write a variable named myFavColor and make it a string of your favorite color
